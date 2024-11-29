@@ -12,7 +12,7 @@
         <li><img src="" alt="User_img"> Users</li>
         <li><img src="" alt="Training_img"> Training</li>
         <li><img src="" alt="Blog_img"> Blog</li>
-        <li><img src="" alt="Setting_img"> Setting</li>
+        <li><i class="fa-solid fa-gear"></i> Setting</li>
     </ul>
 </div>
 <div class="container">
@@ -20,7 +20,7 @@
         <div class="nav">
             <div class="search">
                 <input type="text" placeholder="Search...">
-                <button type="submit"><img src="" alt="search_button"></button>
+                <button type="submit"><i class="fas fa-search"></i></button>
             </div>
             <div class="user">
                 <a href="#" class="btn">Add new</a>

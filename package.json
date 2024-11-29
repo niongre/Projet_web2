@@ -7,7 +7,14 @@
     },
     "devDependencies": {
         "axios": "^1.6.4",
-        "laravel-vite-plugin": "^1.0.0",
-        "vite": "^5.0.0"
+        "laravel-vite-plugin": "^1.0.6",
+        "vite": "^5.4.11"
+    },
+    "dependencies": {
+        "@fortawesome/duotone-light-svg-icons": "^6.7.1",
+        "@fortawesome/duotone-regular-svg-icons": "^6.7.1",
+        "@fortawesome/duotone-thin-svg-icons": "^6.7.1",
+        "@fortawesome/fontawesome-svg-core": "^6.7.1",
+        "@fortawesome/free-brands-svg-icons": "^6.7.1"
     }
 }
