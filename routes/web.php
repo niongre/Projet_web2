@@ -14,17 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('accueil');
+    return view('home');
 });
 
-Route::get('/Training', function () {
-    return 'Les formations';
+Route::get('/Formations', function () {
+    return view('training');
 });
 
 Route::get('/Blog', function () {
-    return 'Bonjour !';
+    return view('blog');
 });
 
-Route::get('/Membership', function () {
-    return 'Adhesion';
+Route::get('/Adhésion', function () {
+    return view('membership.blade.php');
+});
+
+Route::get('/A propos', function () {
+    return view('about.blade.php');
+});
+
+Route::get('/Dashboard', function () {
+    return view('dashboard');
 });
