@@ -4,18 +4,18 @@
 
 @section('content')
 <div class="side-menu">
-    <div class="bran-name">
+    <div class="brand-name">
         <h1>Brand name</h1>
     </div>
     <ul>
-        <li><img src="" alt="Dashboard_img"> Dashboard</li>
-        <li><img src="" alt="User_img"> Users</li>
-        <li><img src="" alt="Training_img"> Training</li>
-        <li><img src="" alt="Blog_img"> Blog</li>
-        <li><i class="fa-solid fa-gear"></i> Setting</li>
+        <li><i class="fa-solid fa-tachometer-alt"></i> Dashboard</li>
+        <li><i class="fa-solid fa-users"></i> Users</li>
+        <li><i class="fa-solid fa-graduation-cap"></i> Training</li>
+        <li><i class="fa-solid fa-newspaper"></i> Blog</li>
+        <li><i class="fa-solid fa-cogs"></i> Setting</li>
     </ul>
 </div>
-<div class="container">
+<div class="dash-container">
     <div class="header">
         <div class="nav">
             <div class="search">
